@@ -39,7 +39,6 @@ int main() {
     MazeCell* twistyStartLocation = twistyMazeFor(kYourName);
     
     /* Set a breakpoint here to explore your twisty maze! */
-    
     if (isPathToFreedom(twistyStartLocation, kPathOutOfTwistyMaze)) {
         std::cout << "Congratulations! You've found a way out of your twisty labyrinth." << std::endl;
     } else {
